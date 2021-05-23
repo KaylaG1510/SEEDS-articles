@@ -1,0 +1,34 @@
+{
+  "name": "seeds-articles",
+  "version": "1.0.0",
+  "description": "SEEDS software engineering articles database thingy",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaylaG1510/SEEDS-articles.git"
+  },
+  "author": "Mikayla Piercy and Bailey Harriss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaylaG1510/SEEDS-articles/issues"
+  },
+  "homepage": "https://github.com/KaylaG1510/SEEDS-articles#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
