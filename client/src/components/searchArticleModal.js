@@ -39,7 +39,7 @@ class SearchArticleModal extends Component {
                 <Modal
                 isOpen={this.state.modal}
                 toggle={this.toggle}>
-                    <ModalHeader toggle={this.toggle}>Add Article</ModalHeader>
+                    <ModalHeader toggle={this.toggle}>Search SE Practice</ModalHeader>
                     <ModalBody>
                         <Form onSubmit={this.onSubmit}>
                             <FormGroup>
