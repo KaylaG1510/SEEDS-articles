@@ -4,8 +4,8 @@ import { GET_ARTICLES, ADD_ARTICLE, DELETE_ARTICLE, ARTICLES_LOADING } from './t
 
 export const getArticles = () => dispatch => {
     dispatch(setArticlesLoading());
-    axios.get('/articles/') //wrong request server: /api/articles
-        .then(res => dispatch({                     //http://localhost:5000/articles/
+    axios.get('/articles/')     //http://localhost:5000/articles/
+        .then(res => dispatch({                     
             type: GET_ARTICLES,
             payload: res.data
         }));
