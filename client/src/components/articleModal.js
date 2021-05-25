@@ -10,7 +10,6 @@ import {
     Input
 } from 'reactstrap';
 import { connect } from 'react-redux';
-import { v4 as uuid } from 'uuid';
 
 import { addArticle } from '../actions/articleActions';
 
@@ -77,7 +76,6 @@ class ArticleModal extends Component {
         e.preventDefault();
 
         const newArticle = {
-            id: uuid(),
             title: this.state.title,
             author: this.state.author,
             year: this.state.year,

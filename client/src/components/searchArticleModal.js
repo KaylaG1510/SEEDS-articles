@@ -54,7 +54,6 @@ class SearchArticleModal extends Component {
                             </FormGroup>
                         </Form>
                     </ModalBody>
-
                 </Modal>
             </div>
         );
