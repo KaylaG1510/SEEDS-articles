@@ -17,18 +17,6 @@ class ArticlesList extends Component {
     return(
       <Container>
         <h3> All Articles </h3>
-        {/* <Button
-          color="dark"
-          style={{marginBottom: '2rem'}}
-          onClick={() => {
-            const name = prompt('Enter Item');
-            if(name) {
-              this.setState(state => ({
-                articles: [...state.articles, { id: uuid(), name: name }]
-              }));
-            }
-          }}
-        >Add Article</Button> */}
         <Table striped bordered hover>
           <thead className="thead-light">
             <tr>

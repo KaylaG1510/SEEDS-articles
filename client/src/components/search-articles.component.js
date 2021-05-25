@@ -17,7 +17,7 @@ export default class SearchArticle extends Component {
   }
 
   componentDidMount() {
-    axios.get('http://localhost:4969/articles/')
+    axios.get('http://localhost:5000/articles/')
       .then(response => {
         this.setState({ articles: response.data })
         console.log("component mounted :D")

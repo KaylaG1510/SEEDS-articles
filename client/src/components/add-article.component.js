@@ -26,7 +26,7 @@ export default class CreateArticle extends Component {
   }
 
   componentDidMount() {
-    axios.get('http://localhost:4969/users/')
+    axios.get('http://localhost:5000/users/')
       .then(response => {
         if (response.data.length > 0) {
           this.setState({
@@ -38,7 +38,7 @@ export default class CreateArticle extends Component {
       .catch((error) => {
         console.log(error);
       })
-      axios.get('http://localhost:4969/strengths/')
+      axios.get('http://localhost:5000/strengths/')
        .then(response => {
            if (response.data.length > 0) {
                this.setState({
