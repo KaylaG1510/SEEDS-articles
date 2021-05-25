@@ -19,7 +19,7 @@ export const deleteArticle = (id) => {
 };
 
 export const addArticle = (article) => dispatch => {
-    axios.post('http://localhost:5000/articles/', article)
+    axios.post('/articles/', article)
     .then(res => dispatch({
         type: ADD_ARTICLE,
         payload: res.data
