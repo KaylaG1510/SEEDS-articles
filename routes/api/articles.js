@@ -17,6 +17,8 @@ router.get('/', (req, res) => {
     .catch(err => res.status(400).json('Error: ' + err));
 });
 
+router.get
+
 router.post('/', (req, res) => {
   const newArticle = new Article({
     title: req.body.title,
@@ -29,6 +31,9 @@ router.post('/', (req, res) => {
 
   newArticle.save().then(article => res.json(article));
 });
+
+
+
 
 // router.route('/add').post((req, res) => {
 //   const title = req.body.title;

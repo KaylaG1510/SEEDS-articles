@@ -31,42 +31,36 @@ class ArticleModal extends Component {
     }
 
     onChangeTitle = (e) => {
-        // this.setState({ [e.target.title]: e.target.value })
         this.setState({
             title: e.target.value
         })
     }
 
     onChangeAuthor = (e) => {
-        // this.setState({ [e.target.author]: e.target.value })
         this.setState({
             author: e.target.value
         })
     }
 
     onChangeYear = (e) => {
-        // this.setState({ [e.target.year]: e.target.value })
         this.setState({
             year: e.target.value
         })
     }
 
     onChangePractice = (e) => {
-        // this.setState({ [e.target.practice]: e.target.value })
         this.setState({
             practice: e.target.value
         })
     }
 
     onChangeClaim = (e) => {
-        // this.setState({ [e.target.claim]: e.target.value })
         this.setState({
             claim: e.target.value
         })
     }
 
     onChangeStrength = (e) => {
-        // this.setState({ [e.target.strength]: e.target.value })
         this.setState({
             strength: e.target.value
         })

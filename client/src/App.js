@@ -9,6 +9,7 @@ import AppNavBar from './components/navbar.component';
 import ArticlesList from "./components/articles-list.component";
 import ArticleModal from './components/articleModal'
 import SearchArticleModal from './components/searchArticleModal';
+import SearchArticles from './components/search-articles.component';
 
 function App() {
   return (
@@ -17,10 +18,10 @@ function App() {
       <AppNavBar />
       <Container>
         <ArticleModal />
-        <SearchArticleModal />
+        {/* <SearchArticleModal /> */}
         <ArticlesList />
       </Container>
-      {/* <Route path="/" exact component={ArticlesList}/> */}
+      {/* <Route path="/search" exact component={SearchArticles}/> */}
     </div>
     </Provider>
   );

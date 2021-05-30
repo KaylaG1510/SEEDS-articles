@@ -36,10 +36,10 @@ class AppNavBar extends Component {
                             <NavItem>
                                 <NavLink href="/">Articles</NavLink>
                             </NavItem>
-                            {/* <NavItem>
+                            <NavItem>
                                 <NavLink href="/search">Search Articles</NavLink>
                             </NavItem>
-                            <NavItem>
+                            {/* <NavItem>
                                 <NavLink href="/create">Add Article</NavLink>
                             </NavItem> */}
                         </Nav>
